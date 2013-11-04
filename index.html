@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rocket Ship</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Rocket Ship">
+  <meta name="author" content="Dan Tam">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+    <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+    <!-- END LOGO SLIDE -->
+    
+
+    <!-- TITLE SLIDE -->
+    <!-- Should I move this to a Local Layout File? -->
+    <slide class="title-slide segue nobackground">
+      <hgroup class="auto-fadein">
+        <h1>Rocket Ship</h1>
+        <h2>Where exponential growth happens</h2>
+        <p>Dan Tam<br/>Software Engineer</p>
+      </hgroup>
+          </slide>
+
+    <!-- SLIDES -->
+      <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Agenda</h2>
+  </hgroup>
+  <article>
+    <h3>1. Rocket ship from the outside</h3>
+
+<h3>2. Stories from Inside a rocket ship</h3>
+
+<h3>3. How to build your own</h3>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Rocket ship?</h2>
+  </hgroup>
+  <article>
+    
+
+<div style='float:left;width:68%'>
+  <span style='display:inline-block; vertical-align:middle'>
+    <p><q>If you&#39;re offered a seat on a rocket ship, you don&#39;t ask what seat. You just get on.</q></p>
+
+  </span>
+</div>
+
+<div style='float:right;width:30%;' class='centered'>
+  <p>
+  <img style="display:block; margin-left:auto; margin-right:auto; max-height:80%; max-width:100%" 
+    src=./assets/img/lean_in.jpg />
+</p>
+  
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Exponential Growth</h2>
+  </hgroup>
+  <article>
+    
+
+<div style='float:left;width:68%'>
+  <span style='display:inline-block; vertical-align:middle'>
+    <p><q>
+On the checkerboard, one grain of wheat,<br/>
+On the first square, then double, Repeat.
+</q></p>
+
+  </span>
+</div>
+
+<div style='float:right;width:30%;' class='centered'>
+  <p>
+  <img style="display:block; margin-left:auto; margin-right:auto; max-height:80%; max-width:100%" 
+    src=./assets/img/shahnameh.jpg />
+</p>
+  
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>How many on each square? <br/> How many up to &quot;n&quot; squares?</h2>
+  </hgroup>
+  <article>
+    
+
+<div style='float:middle;' class='centered'>
+  <img style="display:block; margin-left:auto; margin-right:auto; max-height:80%; max-width:100%" 
+    src=./assets/img/chessboard.png />
+</div>
+
+<div style='font-size:100%;float:middle;' class='centered'>
+  
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Moore&#39;s Law</h2>
+  </hgroup>
+  <article>
+    
+
+<div style='float:middle;' class='centered'>
+  <img style="display:block; margin-left:auto; margin-right:auto; max-height:80%; max-width:100%" 
+    src=./assets/img/moores_law.png />
+</div>
+
+<div style='font-size:100%;float:middle;' class='centered'>
+  
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h2>Cost of DNA sequencing</h2>
+  </hgroup>
+  <article>
+    
+
+<div style='float:middle;' class='centered'>
+  <img style="display:block; margin-left:auto; margin-right:auto; max-height:80%; max-width:100%" 
+    src=./assets/img/dna_cost.png />
+</div>
+
+<div style='font-size:100%;float:middle;' class='centered'>
+  
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h2>Zuck&#39;s Law</h2>
+  </hgroup>
+  <article>
+    
+
+<div style='float:left;width:68%'>
+  <span style='display:inline-block; vertical-align:middle'>
+    <p><q>Every year people share twice as much online as they did the year before.</q></p>
+
+  </span>
+</div>
+
+<div style='float:right;width:30%;' class='centered'>
+  <p>
+  <img style="display:block; margin-left:auto; margin-right:auto; max-height:80%; max-width:100%" 
+    src=./assets/img/zuck.jpg />
+</p>
+  
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-8" style="background:;">
+  <hgroup>
+    <h2>Back to wheat on a chess board</h2>
+  </hgroup>
+  <article>
+    <h3>Number of grains in \(t^{th}\) box:</h3>
+
+<p>\[
+\begin{align}
+x_t = 2^t
+\end{align}
+\]</p>
+
+<p>Compound interest:
+\[
+\begin{align}
+x_t = x_0(1+r)^t with\ x_0 = 1, r = 1.
+\end{align}
+\]</p>
+
+<hr>
+
+<h3>Number of grains in \(0^{th},\ 1^{th},\ \ldots\ ,\ t^{th}\) boxes:</h3>
+
+<p>\[
+\begin{aligned}
+\sum_{i=0}^{t} x_t = 2^{t+1} - 1
+\end{aligned}
+\]</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-9" style="background:;">
+  <hgroup>
+    <h2>Let&#39;s write some python</h2>
+  </hgroup>
+  <article>
+    <pre><code class="r">def math_wiz_wheat_in_box(s, r, times=10):
+    return [s * (r ** t) for t in range(times)]
+
+def studious_wheat_in_box(s, r, times=10):
+    results = []
+    for t in range(times):
+        m = s
+        for tt in range(t):
+            m *= r
+        results.append(m)
+    return results
+</code></pre>
+
+<pre><code class="r">&gt;&gt;&gt; math_wiz_wheat_in_box(1, 2)
+[1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
+&gt;&gt;&gt; studious_wheat_in_box(1, 2)
+[1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-10" style="background:;">
+  <hgroup>
+    <h2>How fast are those programs?</h2>
+  </hgroup>
+  <article>
+    
+
+<div style='float:middle;' class='centered'>
+  <img style="display:block; margin-left:auto; margin-right:auto; max-height:80%; max-width:100%" 
+    src=./assets/img/math_studious.png />
+</div>
+
+<div style='font-size:100%;float:middle;' class='centered'>
+  
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-11" style="background:;">
+  <hgroup>
+    <h2>What would a person do?</h2>
+  </hgroup>
+  <article>
+    <h3>Re-use result from the previous box.</h3>
+
+<pre><code class="r">def dynamic_wheat_in_box(s, r, times=10):
+    results = [s]
+    for t in range(times - 1):
+        results.append(results[-1] * r)
+    return results
+</code></pre>
+
+<h3>Run time is essentially the same as math wiz.</h3>
+
+<h3>In other words, programming helps you look good.</h3>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-12" style="background:;">
+  <hgroup>
+    <h2>Inside a rocket ship</h2>
+  </hgroup>
+  <article>
+    
+
+<div style='float:left;width:68%'>
+  <span style='display:inline-block; vertical-align:middle'>
+    <p><q>We don&#39;t build services to make money; we make money to build better services.</q></p>
+
+  </span>
+</div>
+
+<div style='float:right;width:30%;' class='centered'>
+  <p>
+  <img style="display:block; margin-left:auto; margin-right:auto; max-height:80%; max-width:100%" 
+    src=./assets/img/fb_entrance.png />
+</p>
+  
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-13" style="background:;">
+  <hgroup>
+    <h2>Hacker Square</h2>
+  </hgroup>
+  <article>
+    
+
+<div style='float:middle;' class='centered'>
+  <img style="display:block; margin-left:auto; margin-right:auto; max-height:80%; max-width:100%" 
+    src=./assets/img/fb_hacker_sq.jpg />
+</div>
+
+<div style='font-size:100%;float:middle;' class='centered'>
+  
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-14" style="background:;">
+  <hgroup>
+    <h2>Eat, Drink, Be Merry</h2>
+  </hgroup>
+  <article>
+    
+
+<div style='float:middle;' class='centered'>
+  <img style="display:block; margin-left:auto; margin-right:auto; max-height:80%; max-width:100%" 
+    src=./assets/img/fb_cafeteria.jpg />
+</div>
+
+<div style='font-size:100%;float:middle;' class='centered'>
+  
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-15" style="background:;">
+  <hgroup>
+    <h2>Factory</h2>
+  </hgroup>
+  <article>
+    
+
+<div style='float:middle;' class='centered'>
+  <img style="display:block; margin-left:auto; margin-right:auto; max-height:80%; max-width:100%" 
+    src=./assets/img/fb_office.jpg />
+</div>
+
+<div style='font-size:100%;float:middle;' class='centered'>
+  
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-16" style="background:;">
+  <hgroup>
+    <h2>More tidbits about Facebook</h2>
+  </hgroup>
+  <article>
+    <table><thead>
+<tr>
+<th>Dimension</th>
+<th>Values</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>College Majors</td>
+<td>Software Engineering, Staticstics, Math, Economics, Business, Law, Physics, <br/> None (High School Deploma only)</td>
+</tr>
+<tr>
+<td>Perks</td>
+<td>Gym, Sweet Shop, Offsites, Parties, Cell phones, T-shirts, <br/>Weekday Meals, Shuttle Bus Service</td>
+</tr>
+<tr>
+<td>Programming languages</td>
+<td>PHP, Objective C, Java, C++, Python</td>
+</tr>
+<tr>
+<td>Tools</td>
+<td>Git, Mercurial, Phabricator, Hive</td>
+</tr>
+<tr>
+<td>Daily Active Users</td>
+<td>728,000,000</td>
+</tr>
+<tr>
+<td>Monthly Active Users</td>
+<td>1,190,000,000</td>
+</tr>
+<tr>
+<td>Number of Employees</td>
+<td>~5000</td>
+</tr>
+</tbody></table>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-17" style="background:;">
+  <hgroup>
+    <h2>Amazon</h2>
+  </hgroup>
+  <article>
+    
+
+<div style='float:left;width:68%'>
+  <span style='display:inline-block; vertical-align:middle'>
+    <p><q>There are two kinds of companies, those that work to try to charge more, and those that work to try to charge less.</q></p>
+
+  </span>
+</div>
+
+<div style='float:right;width:30%;' class='centered'>
+  <p>
+  <img style="display:block; margin-left:auto; margin-right:auto; max-height:80%; max-width:100%" 
+    src=./assets/img/bezos.jpg />
+</p>
+  
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-18" style="background:;">
+  <hgroup>
+    <h2>Spelling Correction for Product Search</h2>
+  </hgroup>
+  <article>
+    <h3>1. Users often send queries with typos.</h3>
+
+<h3>2. Typos make it difficult to find relevant documents.</h3>
+
+<h3>3. Suggest alternate spellings, sometimes search directly using them.</h3>
+
+<hr/>
+
+
+<div style='float:middle;' class='centered'>
+  <img style="display:block; margin-left:auto; margin-right:auto; max-height:80%; max-width:100%" 
+    src=./assets/img/feinman.png />
+</div>
+
+<div style='font-size:100%;float:middle;' class='centered'>
+  
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-19" style="background:;">
+  <hgroup>
+    <h2>Noisy Channel</h2>
+  </hgroup>
+  <article>
+    
+
+<div style='float:middle;' class='centered'>
+  <img style="display:block; margin-left:auto; margin-right:auto; max-height:80%; max-width:100%" 
+    src=assets/img/noisy_channel.jpg />
+</div>
+
+<div style='font-size:100%;float:middle;' class='centered'>
+  <h3>Given message at destination, re-construct message at source.</h3>
+
+<p>\[
+\begin{aligned}
+P(src\mid dest) 
+= P(dest\mid src) \times P(src) \div P(dest)
+\end{aligned}
+\]</p>
+
+<h3>Best message at source can be computed by two factors:</h3>
+
+<h4>1. Language Model: \(P(src)\)</h4>
+
+<h4>2. Error Model: \(P(dest\mid src)\)</h4>
+
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-20" style="background:;">
+  <hgroup>
+    <h2>Learn from Peter Norvig</h2>
+  </hgroup>
+  <article>
+    
+
+<div style='float:middle;' class='centered'>
+  <img style="display:block; margin-left:auto; margin-right:auto; max-height:80%; max-width:100%" 
+    src=assets/img/norvig.png />
+</div>
+
+<div style='font-size:100%;float:middle;' class='centered'>
+  <div style='font-size:50%;float:right;'>
+  http://norvig.com/spell-correct.html 
+</div>
+
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-21" style="background:;">
+  <hgroup>
+    <h2>Lessons learned from spelling correction</h2>
+  </hgroup>
+  <article>
+    <h3>1. Users are helpful - count them properly.</h3>
+
+<h3>2. Bayes&#39; rule is useful - used for spelling and general search ranking.</h3>
+
+<h3>3. A few lines of code can do a lot.</h3>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-22" style="background:;">
+  <hgroup>
+    
+  </hgroup>
+  <article>
+    <p><q>The best way to predict the future<br/> is to invent it.</q></p>
+
+<div style='float:right;'>
+  Alan Kay 
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-23" style="background:;">
+  <hgroup>
+    <h2>Watch out for rocket ships in your career</h2>
+  </hgroup>
+  <article>
+    <h3>1. Don&#39;t pick a skill that will be obsolete (e.g. archer, taxi driver)</h3>
+
+<h3>2. Make use of rocket ships (e.g. musicians using youtube)</h3>
+
+<h3>3. Work on one</h3>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+
+  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+<!-- Grab CDN jQuery, fall back to local if offline -->
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+<script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery-1.7.min.js"><\/script>')</script>
+<!-- Load Javascripts for Widgets -->
+<!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> -->
+<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+</html>
