@@ -64,14 +64,16 @@ On the first square, then double, Repeat.
 ### Number of grains in \(t^{th}\) box:
 $$
 \begin{align}
+\huge
 x_t = 2^t
 \end{align}
 $$
 
-Compound interest:
+### Compound interest:
 $$
 \begin{align}
-x_t = x_0(1+r)^t with\ x_0 = 1, r = 1.
+\huge
+x_t = x_0 \times r^t with\ x_0 = 1, r = 2.
 \end{align}
 $$
 
@@ -80,6 +82,7 @@ $$
 ###  Number of grains in \(0^{th},\ 1^{th},\ \ldots\ ,\ t^{th}\) boxes:
 $$
 \begin{aligned}
+\Large
 \sum_{i=0}^{t} x_t = 2^{t+1} - 1
 \end{aligned}
 $$
@@ -156,8 +159,8 @@ def dynamic_wheat_in_box(s, r, times=10):
 
  Dimension | Values
  ---|----------------------------------------------------------------------------
- College Majors | Software Engineering, Staticstics, Math, Economics, Business, Law, Physics, <br/> None (High School Deploma only)
- Perks | Gym, Sweet Shop, Offsites, Parties, Cell phones, T-shirts, <br/>Weekday Meals, Shuttle Bus Service
+ College Majors | Software Engineering, Staticstics, Math, Economics, Business, Law, Physics, None (High School Deploma)
+ Perks | Gym, Sweet Shop, Offsites, Parties, Cell phones, T-shirts, Meals, Shuttle Bus Service, Celebrity visits
  Programming languages | PHP, Objective C, Java, C++, Python
  Tools | Git, Mercurial, Phabricator, Hive
  Daily Active Users | 728,000,000
@@ -192,6 +195,7 @@ def dynamic_wheat_in_box(s, r, times=10):
 
 $$
 \begin{aligned}
+\Large
 P(src\mid dest) 
 = P(dest\mid src) \times P(src) \div P(dest)
 \end{aligned}
@@ -236,3 +240,9 @@ $$
 ### 1. Don't pick a skill that will be obsolete (e.g. archer, taxi driver)
 ### 2. Make use of rocket ships (e.g. musicians using youtube)
 ### 3. Work on one
+
+--- &two_images image1:./assets/img/down_one_percent.png image2:./assets/img/up_one_percent.png
+
+## Try to get better every day
+
+
